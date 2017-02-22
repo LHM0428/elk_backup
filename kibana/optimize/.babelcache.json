@@ -1,0 +1,214 @@
+{
+  "{\"filename\":\"/usr/share/kibana/plugins/area3d_vis/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, '__esModule', {\n  value: true\n});\n\nexports['default'] = function (kibana) {\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: ['plugins/area3d_vis/area3d_vis']\n    }\n  });\n};\n\nmodule.exports = exports['default'];\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMvYXJlYTNkX3Zpcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7cUJBQWUsVUFBVSxNQUFNLEVBQUU7QUFDL0IsU0FBTyxJQUFJLE1BQU0sQ0FBQyxNQUFNLENBQUM7QUFDdkIsYUFBUyxFQUFFO0FBQ1QsY0FBUSxFQUFFLENBQ1IsK0JBQStCLENBQ2hDO0tBQ0Y7R0FDRixDQUFDLENBQUM7Q0FDSiIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL2FyZWEzZF92aXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiAoa2liYW5hKSB7XG4gIHJldHVybiBuZXcga2liYW5hLlBsdWdpbih7XG4gICAgdWlFeHBvcnRzOiB7XG4gICAgICB2aXNUeXBlczogW1xuICAgICAgICAncGx1Z2lucy9hcmVhM2RfdmlzL2FyZWEzZF92aXMnXG4gICAgICBdXG4gICAgfVxuICB9KTtcbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/area3d_vis/index.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;qBAAe,UAAU,MAAM,EAAE;AAC/B,SAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACvB,aAAS,EAAE;AACT,cAAQ,EAAE,CACR,+BAA+B,CAChC;KACF;GACF,CAAC,CAAC;CACJ",
+      "file": "/usr/share/kibana/plugins/area3d_vis/index.js",
+      "sourcesContent": [
+        "export default function (kibana) {\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: [\n        'plugins/area3d_vis/area3d_vis'\n      ]\n    }\n  });\n}\n"
+      ]
+    },
+    "mtime": 1487590931781
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/kbn_sunburst_vis/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nmodule.exports = function (kibana) {\n\treturn new kibana.Plugin({\n\t\tname: 'kbn_sunburst_vis',\n\t\trequire: ['kibana', 'elasticsearch'],\n\t\tuiExports: {\n\t\t\tvisTypes: ['plugins/kbn_sunburst_vis/kbn_sunburst_vis']\n\t\t}\n\t});\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMva2JuX3N1bmJ1cnN0X3Zpcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLE1BQU0sQ0FBQyxPQUFPLEdBQUcsVUFBUyxNQUFNLEVBQUM7QUFDaEMsUUFBTyxJQUFJLE1BQU0sQ0FBQyxNQUFNLENBQUM7QUFDeEIsTUFBSSxFQUFFLGtCQUFrQjtBQUN4QixTQUFPLEVBQUUsQ0FBQyxRQUFRLEVBQUUsZUFBZSxDQUFDO0FBQ3BDLFdBQVMsRUFBRTtBQUNWLFdBQVEsRUFBRSxDQUNULDJDQUEyQyxDQUMxQztHQUNGO0VBQ0QsQ0FBQyxDQUFDO0NBQ0gsQ0FBQyIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL2tibl9zdW5idXJzdF92aXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uKGtpYmFuYSl7XG5cdHJldHVybiBuZXcga2liYW5hLlBsdWdpbih7XG5cdFx0bmFtZTogJ2tibl9zdW5idXJzdF92aXMnLFxuXHRcdHJlcXVpcmU6IFsna2liYW5hJywgJ2VsYXN0aWNzZWFyY2gnXSxcblx0XHR1aUV4cG9ydHM6IHtcblx0XHRcdHZpc1R5cGVzOiBbXG5cdFx0XHRcdCdwbHVnaW5zL2tibl9zdW5idXJzdF92aXMva2JuX3N1bmJ1cnN0X3Zpcydcblx0XHRcdFx0XVxuXHRcdH1cblx0fSk7XG59OyJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/kbn_sunburst_vis/index.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA,MAAM,CAAC,OAAO,GAAG,UAAS,MAAM,EAAC;AAChC,QAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACxB,MAAI,EAAE,kBAAkB;AACxB,SAAO,EAAE,CAAC,QAAQ,EAAE,eAAe,CAAC;AACpC,WAAS,EAAE;AACV,WAAQ,EAAE,CACT,2CAA2C,CAC1C;GACF;EACD,CAAC,CAAC;CACH,CAAC",
+      "file": "/usr/share/kibana/plugins/kbn_sunburst_vis/index.js",
+      "sourcesContent": [
+        "module.exports = function(kibana){\n\treturn new kibana.Plugin({\n\t\tname: 'kbn_sunburst_vis',\n\t\trequire: ['kibana', 'elasticsearch'],\n\t\tuiExports: {\n\t\t\tvisTypes: [\n\t\t\t\t'plugins/kbn_sunburst_vis/kbn_sunburst_vis'\n\t\t\t\t]\n\t\t}\n\t});\n};"
+      ]
+    },
+    "mtime": 1485229654206
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/network_vis/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nmodule.exports = function (kibana) {\n\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: ['plugins/network_vis/network_vis']\n    }\n  });\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMvbmV0d29ya192aXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxNQUFNLENBQUMsT0FBTyxHQUFHLFVBQVUsTUFBTSxFQUFFOztBQUVqQyxTQUFPLElBQUksTUFBTSxDQUFDLE1BQU0sQ0FBQztBQUN2QixhQUFTLEVBQUU7QUFDVCxjQUFRLEVBQUUsQ0FDUixpQ0FBaUMsQ0FDbEM7S0FDRjtHQUNGLENBQUMsQ0FBQztDQUVKLENBQUMiLCJmaWxlIjoiL3Vzci9zaGFyZS9raWJhbmEvcGx1Z2lucy9uZXR3b3JrX3Zpcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gKGtpYmFuYSkge1xuXG4gIHJldHVybiBuZXcga2liYW5hLlBsdWdpbih7XG4gICAgdWlFeHBvcnRzOiB7XG4gICAgICB2aXNUeXBlczogW1xuICAgICAgICAncGx1Z2lucy9uZXR3b3JrX3Zpcy9uZXR3b3JrX3ZpcydcbiAgICAgIF1cbiAgICB9XG4gIH0pO1xuXG59O1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/network_vis/index.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA,MAAM,CAAC,OAAO,GAAG,UAAU,MAAM,EAAE;;AAEjC,SAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACvB,aAAS,EAAE;AACT,cAAQ,EAAE,CACR,iCAAiC,CAClC;KACF;GACF,CAAC,CAAC;CAEJ,CAAC",
+      "file": "/usr/share/kibana/plugins/network_vis/index.js",
+      "sourcesContent": [
+        "module.exports = function (kibana) {\n\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: [\n        'plugins/network_vis/network_vis'\n      ]\n    }\n  });\n\n};\n"
+      ]
+    },
+    "mtime": 1485849052002
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/Kibana-D3-tree-plugin/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nmodule.exports = function (kibana) {\n\treturn new kibana.Plugin({\n\t\tname: 'kbn_tree',\n\t\trequire: ['kibana', 'elasticsearch'],\n\t\tuiExports: {\n\t\t\tvisTypes: ['plugins/kbn_tree/kbn_tree']\n\t\t}\n\t});\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMvS2liYW5hLUQzLXRyZWUtcGx1Z2luL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsTUFBTSxDQUFDLE9BQU8sR0FBRyxVQUFTLE1BQU0sRUFBQztBQUNoQyxRQUFPLElBQUksTUFBTSxDQUFDLE1BQU0sQ0FBQztBQUN4QixNQUFJLEVBQUUsVUFBVTtBQUNoQixTQUFPLEVBQUUsQ0FBQyxRQUFRLEVBQUUsZUFBZSxDQUFDO0FBQ3BDLFdBQVMsRUFBRTtBQUNWLFdBQVEsRUFBRSxDQUNULDJCQUEyQixDQUMxQjtHQUNGO0VBQ0QsQ0FBQyxDQUFDO0NBQ0gsQ0FBQyIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL0tpYmFuYS1EMy10cmVlLXBsdWdpbi9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24oa2liYW5hKXtcblx0cmV0dXJuIG5ldyBraWJhbmEuUGx1Z2luKHtcblx0XHRuYW1lOiAna2JuX3RyZWUnLFxuXHRcdHJlcXVpcmU6IFsna2liYW5hJywgJ2VsYXN0aWNzZWFyY2gnXSxcblx0XHR1aUV4cG9ydHM6IHtcblx0XHRcdHZpc1R5cGVzOiBbXG5cdFx0XHRcdCdwbHVnaW5zL2tibl90cmVlL2tibl90cmVlJ1xuXHRcdFx0XHRdXG5cdFx0fVxuXHR9KTtcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/Kibana-D3-tree-plugin/index.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA,MAAM,CAAC,OAAO,GAAG,UAAS,MAAM,EAAC;AAChC,QAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACxB,MAAI,EAAE,UAAU;AAChB,SAAO,EAAE,CAAC,QAAQ,EAAE,eAAe,CAAC;AACpC,WAAS,EAAE;AACV,WAAQ,EAAE,CACT,2BAA2B,CAC1B;GACF;EACD,CAAC,CAAC;CACH,CAAC",
+      "file": "/usr/share/kibana/plugins/Kibana-D3-tree-plugin/index.js",
+      "sourcesContent": [
+        "module.exports = function(kibana){\n\treturn new kibana.Plugin({\n\t\tname: 'kbn_tree',\n\t\trequire: ['kibana', 'elasticsearch'],\n\t\tuiExports: {\n\t\t\tvisTypes: [\n\t\t\t\t'plugins/kbn_tree/kbn_tree'\n\t\t\t\t]\n\t\t}\n\t});\n};\n"
+      ]
+    },
+    "mtime": 1485844874920
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/kbn_network-Kibana-5.x/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nmodule.exports = function (kibana) {\n\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: ['plugins/network_vis/network_vis']\n    }\n  });\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMva2JuX25ldHdvcmstS2liYW5hLTUueC9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLE1BQU0sQ0FBQyxPQUFPLEdBQUcsVUFBVSxNQUFNLEVBQUU7O0FBRWpDLFNBQU8sSUFBSSxNQUFNLENBQUMsTUFBTSxDQUFDO0FBQ3ZCLGFBQVMsRUFBRTtBQUNULGNBQVEsRUFBRSxDQUNSLGlDQUFpQyxDQUNsQztLQUNGO0dBQ0YsQ0FBQyxDQUFDO0NBRUosQ0FBQyIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL2tibl9uZXR3b3JrLUtpYmFuYS01LngvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uIChraWJhbmEpIHtcblxuICByZXR1cm4gbmV3IGtpYmFuYS5QbHVnaW4oe1xuICAgIHVpRXhwb3J0czoge1xuICAgICAgdmlzVHlwZXM6IFtcbiAgICAgICAgJ3BsdWdpbnMvbmV0d29ya192aXMvbmV0d29ya192aXMnXG4gICAgICBdXG4gICAgfVxuICB9KTtcblxufTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/kbn_network-Kibana-5.x/index.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA,MAAM,CAAC,OAAO,GAAG,UAAU,MAAM,EAAE;;AAEjC,SAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACvB,aAAS,EAAE;AACT,cAAQ,EAAE,CACR,iCAAiC,CAClC;KACF;GACF,CAAC,CAAC;CAEJ,CAAC",
+      "file": "/usr/share/kibana/plugins/kbn_network-Kibana-5.x/index.js",
+      "sourcesContent": [
+        "module.exports = function (kibana) {\n\n  return new kibana.Plugin({\n    uiExports: {\n      visTypes: [\n        'plugins/network_vis/network_vis'\n      ]\n    }\n  });\n\n};\n"
+      ]
+    },
+    "mtime": 1483996487000
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/elasticsearch_status/index.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [
+          {
+            "source": "./server/routes",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "api"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": [
+        "interop-require-default"
+      ]
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, '__esModule', {\n  value: true\n});\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }\n\nvar _serverRoutes = require('./server/routes');\n\nvar _serverRoutes2 = _interopRequireDefault(_serverRoutes);\n\nexports['default'] = function (kibana) {\n  return new kibana.Plugin({\n    require: ['elasticsearch'],\n\n    uiExports: {\n      // Register the app component of our plugin to uiExports\n      app: {\n        // The title of the app (will be shown to the user)\n        title: 'Indices',\n        // An description of the application.\n        description: 'An awesome Kibana plugin',\n        // The require reference to the JavaScript file for this app\n        main: 'plugins/elasticsearch_status/app',\n        // The require reference to the icon of the app\n        icon: 'plugins/elasticsearch_status/icon.svg'\n      }\n    },\n\n    // The init method will be executed when the Kibana server starts and loads\n    // this plugin. It is used to set up everything that you need.\n    init: function init(server, options) {\n      // Just call the api module that we imported above (the server/routes.js file)\n      // and pass the server to it, so it can register several API interfaces at the server.\n      (0, _serverRoutes2['default'])(server);\n    }\n\n  });\n};\n\n;\nmodule.exports = exports['default'];\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMvZWxhc3RpY3NlYXJjaF9zdGF0dXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7NEJBQWdCLGlCQUFpQjs7OztxQkFFbEIsVUFBVSxNQUFNLEVBQUU7QUFDL0IsU0FBTyxJQUFJLE1BQU0sQ0FBQyxNQUFNLENBQUM7QUFDdkIsV0FBTyxFQUFFLENBQUMsZUFBZSxDQUFDOztBQUUxQixhQUFTLEVBQUU7O0FBRVQsU0FBRyxFQUFFOztBQUVILGFBQUssRUFBRSxTQUFTOztBQUVoQixtQkFBVyxFQUFFLDBCQUEwQjs7QUFFdkMsWUFBSSxFQUFFLGtDQUFrQzs7QUFFeEMsWUFBSSxFQUFFLHVDQUF1QztPQUM5QztLQUNGOzs7O0FBSUQsUUFBSSxFQUFBLGNBQUMsTUFBTSxFQUFFLE9BQU8sRUFBRTs7O0FBR3BCLHFDQUFJLE1BQU0sQ0FBQyxDQUFDO0tBQ2I7O0dBRUYsQ0FBQyxDQUFDO0NBQ0o7O0FBQUEsQ0FBQyIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL2VsYXN0aWNzZWFyY2hfc3RhdHVzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGFwaSBmcm9tICcuL3NlcnZlci9yb3V0ZXMnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiAoa2liYW5hKSB7XG4gIHJldHVybiBuZXcga2liYW5hLlBsdWdpbih7XG4gICAgcmVxdWlyZTogWydlbGFzdGljc2VhcmNoJ10sXG5cbiAgICB1aUV4cG9ydHM6IHtcbiAgICAgIC8vIFJlZ2lzdGVyIHRoZSBhcHAgY29tcG9uZW50IG9mIG91ciBwbHVnaW4gdG8gdWlFeHBvcnRzXG4gICAgICBhcHA6IHtcbiAgICAgICAgLy8gVGhlIHRpdGxlIG9mIHRoZSBhcHAgKHdpbGwgYmUgc2hvd24gdG8gdGhlIHVzZXIpXG4gICAgICAgIHRpdGxlOiAnSW5kaWNlcycsXG4gICAgICAgIC8vIEFuIGRlc2NyaXB0aW9uIG9mIHRoZSBhcHBsaWNhdGlvbi5cbiAgICAgICAgZGVzY3JpcHRpb246ICdBbiBhd2Vzb21lIEtpYmFuYSBwbHVnaW4nLFxuICAgICAgICAvLyBUaGUgcmVxdWlyZSByZWZlcmVuY2UgdG8gdGhlIEphdmFTY3JpcHQgZmlsZSBmb3IgdGhpcyBhcHBcbiAgICAgICAgbWFpbjogJ3BsdWdpbnMvZWxhc3RpY3NlYXJjaF9zdGF0dXMvYXBwJyxcbiAgICAgICAgLy8gVGhlIHJlcXVpcmUgcmVmZXJlbmNlIHRvIHRoZSBpY29uIG9mIHRoZSBhcHBcbiAgICAgICAgaWNvbjogJ3BsdWdpbnMvZWxhc3RpY3NlYXJjaF9zdGF0dXMvaWNvbi5zdmcnXG4gICAgICB9XG4gICAgfSxcblxuICAgIC8vIFRoZSBpbml0IG1ldGhvZCB3aWxsIGJlIGV4ZWN1dGVkIHdoZW4gdGhlIEtpYmFuYSBzZXJ2ZXIgc3RhcnRzIGFuZCBsb2Fkc1xuICAgIC8vIHRoaXMgcGx1Z2luLiBJdCBpcyB1c2VkIHRvIHNldCB1cCBldmVyeXRoaW5nIHRoYXQgeW91IG5lZWQuXG4gICAgaW5pdChzZXJ2ZXIsIG9wdGlvbnMpIHtcbiAgICAgIC8vIEp1c3QgY2FsbCB0aGUgYXBpIG1vZHVsZSB0aGF0IHdlIGltcG9ydGVkIGFib3ZlICh0aGUgc2VydmVyL3JvdXRlcy5qcyBmaWxlKVxuICAgICAgLy8gYW5kIHBhc3MgdGhlIHNlcnZlciB0byBpdCwgc28gaXQgY2FuIHJlZ2lzdGVyIHNldmVyYWwgQVBJIGludGVyZmFjZXMgYXQgdGhlIHNlcnZlci5cbiAgICAgIGFwaShzZXJ2ZXIpO1xuICAgIH1cblxuICB9KTtcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/elasticsearch_status/index.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;;;4BAAgB,iBAAiB;;;;qBAElB,UAAU,MAAM,EAAE;AAC/B,SAAO,IAAI,MAAM,CAAC,MAAM,CAAC;AACvB,WAAO,EAAE,CAAC,eAAe,CAAC;;AAE1B,aAAS,EAAE;;AAET,SAAG,EAAE;;AAEH,aAAK,EAAE,SAAS;;AAEhB,mBAAW,EAAE,0BAA0B;;AAEvC,YAAI,EAAE,kCAAkC;;AAExC,YAAI,EAAE,uCAAuC;OAC9C;KACF;;;;AAID,QAAI,EAAA,cAAC,MAAM,EAAE,OAAO,EAAE;;;AAGpB,qCAAI,MAAM,CAAC,CAAC;KACb;;GAEF,CAAC,CAAC;CACJ;;AAAA,CAAC",
+      "file": "/usr/share/kibana/plugins/elasticsearch_status/index.js",
+      "sourcesContent": [
+        "import api from './server/routes';\n\nexport default function (kibana) {\n  return new kibana.Plugin({\n    require: ['elasticsearch'],\n\n    uiExports: {\n      // Register the app component of our plugin to uiExports\n      app: {\n        // The title of the app (will be shown to the user)\n        title: 'Indices',\n        // An description of the application.\n        description: 'An awesome Kibana plugin',\n        // The require reference to the JavaScript file for this app\n        main: 'plugins/elasticsearch_status/app',\n        // The require reference to the icon of the app\n        icon: 'plugins/elasticsearch_status/icon.svg'\n      }\n    },\n\n    // The init method will be executed when the Kibana server starts and loads\n    // this plugin. It is used to set up everything that you need.\n    init(server, options) {\n      // Just call the api module that we imported above (the server/routes.js file)\n      // and pass the server to it, so it can register several API interfaces at the server.\n      api(server);\n    }\n\n  });\n};\n"
+      ]
+    },
+    "mtime": 1486638711238
+  },
+  "{\"filename\":\"/usr/share/kibana/plugins/elasticsearch_status/server/routes.js\",\"extra\":{},\"env\":{},\"retainLines\":false,\"nonStandard\":true,\"experimental\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"stage\":2,\"blacklist\":[],\"optional\":[],\"modules\":\"common\",\"moduleIds\":false,\"jsxPragma\":\"React.createElement\",\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"keepModuleIdExtensions\":false,\"auxiliaryCommentAfter\":\"\",\"externalHelpers\":false,\"metadataUsedHelpers\":false,\"breakConfig\":false,\"sourceType\":\"module\"}:5.8.38": {
+    "metadata": {
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      },
+      "usedHelpers": []
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, '__esModule', {\n  value: true\n});\n\nexports['default'] = function (server) {\n\n  // We can use this method, since we have set the require in the index.js to\n  // elasticsearch. So we can access the elasticsearch plugins safely here.\n  var call = server.plugins.elasticsearch.callWithRequest;\n\n  // Register a GET API at /api/elasticsearch_status/indices that returns\n  // an array of all indices in the elasticsearch. The server is actually an\n  // HAPI server and the complete documentation of the \"route\" method can be\n  // found in the official documentation: http://hapijs.com/api#serverrouteoptions\n  server.route({\n    path: '/api/elasticsearch_status/indices',\n    method: 'GET',\n    // The handler method will be called with the request that was made to this\n    // API and a reply method as 2nd parameter, that must be called with the\n    // content, that should be returned to the client.\n    handler: function handler(req, reply) {\n\n      // The call method that we just got from elasticsearch has the following\n      // syntax: the first parameter should be the request that actually came\n      // from the client. The callWithRequest method will take care about\n      // passing authentication data from kibana to elasticsearch or return\n      // authorization requests, etc.\n      // Second parameter to the function is the name of the javascript method\n      // you would like to call, as you can find it here in the documentation:\n      // https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/\n      // The third parameter will be passed as a parameter to the javascript method\n      // (it should contain the data you would have also passed to the client directly).\n      // The method returns a promise, which will be resolved with the data returned\n      // from Elasticsearch.\n      call(req, 'cluster.state').then(function (response) {\n        // Return just the names of all indices to the client.\n        reply(Object.keys(response.metadata.indices));\n      });\n    }\n  });\n\n  // Add a route to retrieve the status of an index by its name\n  server.route({\n    // We can use path variables in here, that can be accessed on the request\n    // object in the handler.\n    path: '/api/elasticsearch_status/index/{name}',\n    method: 'GET',\n    handler: function handler(req, reply) {\n      call(req, 'cluster.state', {\n        metric: 'metadata',\n        index: req.params.name\n      }).then(function (response) {\n        reply(response.metadata.indices[req.params.name]);\n      });\n    }\n  });\n};\n\n;\nmodule.exports = exports['default'];\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi91c3Ivc2hhcmUva2liYW5hL3BsdWdpbnMvZWxhc3RpY3NlYXJjaF9zdGF0dXMvc2VydmVyL3JvdXRlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7cUJBQWUsVUFBVSxNQUFNLEVBQUU7Ozs7QUFJL0IsTUFBSSxJQUFJLEdBQUcsTUFBTSxDQUFDLE9BQU8sQ0FBQyxhQUFhLENBQUMsZUFBZSxDQUFDOzs7Ozs7QUFNeEQsUUFBTSxDQUFDLEtBQUssQ0FBQztBQUNYLFFBQUksRUFBRSxtQ0FBbUM7QUFDekMsVUFBTSxFQUFFLEtBQUs7Ozs7QUFJYixXQUFPLEVBQUEsaUJBQUMsR0FBRyxFQUFFLEtBQUssRUFBRTs7Ozs7Ozs7Ozs7Ozs7QUFjbEIsVUFBSSxDQUFDLEdBQUcsRUFBRSxlQUFlLENBQUMsQ0FBQyxJQUFJLENBQUMsVUFBVSxRQUFRLEVBQUU7O0FBRWxELGFBQUssQ0FDSCxNQUFNLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsT0FBTyxDQUFDLENBQ3ZDLENBQUM7T0FDSCxDQUFDLENBQUM7S0FDSjtHQUNGLENBQUMsQ0FBQzs7O0FBR0gsUUFBTSxDQUFDLEtBQUssQ0FBQzs7O0FBR1gsUUFBSSxFQUFFLHdDQUF3QztBQUM5QyxVQUFNLEVBQUUsS0FBSztBQUNiLFdBQU8sRUFBQSxpQkFBQyxHQUFHLEVBQUUsS0FBSyxFQUFFO0FBQ2xCLFVBQUksQ0FBQyxHQUFHLEVBQUUsZUFBZSxFQUFFO0FBQ3pCLGNBQU0sRUFBRSxVQUFVO0FBQ2xCLGFBQUssRUFBRSxHQUFHLENBQUMsTUFBTSxDQUFDLElBQUk7T0FDdkIsQ0FBQyxDQUFDLElBQUksQ0FBQyxVQUFVLFFBQVEsRUFBRTtBQUMxQixhQUFLLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxPQUFPLENBQUMsR0FBRyxDQUFDLE1BQU0sQ0FBQyxJQUFJLENBQUMsQ0FBQyxDQUFDO09BQ25ELENBQUMsQ0FBQztLQUNKO0dBQ0YsQ0FBQyxDQUFDO0NBRUo7O0FBQUEsQ0FBQyIsImZpbGUiOiIvdXNyL3NoYXJlL2tpYmFuYS9wbHVnaW5zL2VsYXN0aWNzZWFyY2hfc3RhdHVzL3NlcnZlci9yb3V0ZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiAoc2VydmVyKSB7XG5cbiAgLy8gV2UgY2FuIHVzZSB0aGlzIG1ldGhvZCwgc2luY2Ugd2UgaGF2ZSBzZXQgdGhlIHJlcXVpcmUgaW4gdGhlIGluZGV4LmpzIHRvXG4gIC8vIGVsYXN0aWNzZWFyY2guIFNvIHdlIGNhbiBhY2Nlc3MgdGhlIGVsYXN0aWNzZWFyY2ggcGx1Z2lucyBzYWZlbHkgaGVyZS5cbiAgbGV0IGNhbGwgPSBzZXJ2ZXIucGx1Z2lucy5lbGFzdGljc2VhcmNoLmNhbGxXaXRoUmVxdWVzdDtcblxuICAvLyBSZWdpc3RlciBhIEdFVCBBUEkgYXQgL2FwaS9lbGFzdGljc2VhcmNoX3N0YXR1cy9pbmRpY2VzIHRoYXQgcmV0dXJuc1xuICAvLyBhbiBhcnJheSBvZiBhbGwgaW5kaWNlcyBpbiB0aGUgZWxhc3RpY3NlYXJjaC4gVGhlIHNlcnZlciBpcyBhY3R1YWxseSBhblxuICAvLyBIQVBJIHNlcnZlciBhbmQgdGhlIGNvbXBsZXRlIGRvY3VtZW50YXRpb24gb2YgdGhlIFwicm91dGVcIiBtZXRob2QgY2FuIGJlXG4gIC8vIGZvdW5kIGluIHRoZSBvZmZpY2lhbCBkb2N1bWVudGF0aW9uOiBodHRwOi8vaGFwaWpzLmNvbS9hcGkjc2VydmVycm91dGVvcHRpb25zXG4gIHNlcnZlci5yb3V0ZSh7XG4gICAgcGF0aDogJy9hcGkvZWxhc3RpY3NlYXJjaF9zdGF0dXMvaW5kaWNlcycsXG4gICAgbWV0aG9kOiAnR0VUJyxcbiAgICAvLyBUaGUgaGFuZGxlciBtZXRob2Qgd2lsbCBiZSBjYWxsZWQgd2l0aCB0aGUgcmVxdWVzdCB0aGF0IHdhcyBtYWRlIHRvIHRoaXNcbiAgICAvLyBBUEkgYW5kIGEgcmVwbHkgbWV0aG9kIGFzIDJuZCBwYXJhbWV0ZXIsIHRoYXQgbXVzdCBiZSBjYWxsZWQgd2l0aCB0aGVcbiAgICAvLyBjb250ZW50LCB0aGF0IHNob3VsZCBiZSByZXR1cm5lZCB0byB0aGUgY2xpZW50LlxuICAgIGhhbmRsZXIocmVxLCByZXBseSkge1xuXG4gICAgICAvLyBUaGUgY2FsbCBtZXRob2QgdGhhdCB3ZSBqdXN0IGdvdCBmcm9tIGVsYXN0aWNzZWFyY2ggaGFzIHRoZSBmb2xsb3dpbmdcbiAgICAgIC8vIHN5bnRheDogdGhlIGZpcnN0IHBhcmFtZXRlciBzaG91bGQgYmUgdGhlIHJlcXVlc3QgdGhhdCBhY3R1YWxseSBjYW1lXG4gICAgICAvLyBmcm9tIHRoZSBjbGllbnQuIFRoZSBjYWxsV2l0aFJlcXVlc3QgbWV0aG9kIHdpbGwgdGFrZSBjYXJlIGFib3V0XG4gICAgICAvLyBwYXNzaW5nIGF1dGhlbnRpY2F0aW9uIGRhdGEgZnJvbSBraWJhbmEgdG8gZWxhc3RpY3NlYXJjaCBvciByZXR1cm5cbiAgICAgIC8vIGF1dGhvcml6YXRpb24gcmVxdWVzdHMsIGV0Yy5cbiAgICAgIC8vIFNlY29uZCBwYXJhbWV0ZXIgdG8gdGhlIGZ1bmN0aW9uIGlzIHRoZSBuYW1lIG9mIHRoZSBqYXZhc2NyaXB0IG1ldGhvZFxuICAgICAgLy8geW91IHdvdWxkIGxpa2UgdG8gY2FsbCwgYXMgeW91IGNhbiBmaW5kIGl0IGhlcmUgaW4gdGhlIGRvY3VtZW50YXRpb246XG4gICAgICAvLyBodHRwczovL3d3dy5lbGFzdGljLmNvL2d1aWRlL2VuL2VsYXN0aWNzZWFyY2gvY2xpZW50L2phdmFzY3JpcHQtYXBpL2N1cnJlbnQvXG4gICAgICAvLyBUaGUgdGhpcmQgcGFyYW1ldGVyIHdpbGwgYmUgcGFzc2VkIGFzIGEgcGFyYW1ldGVyIHRvIHRoZSBqYXZhc2NyaXB0IG1ldGhvZFxuICAgICAgLy8gKGl0IHNob3VsZCBjb250YWluIHRoZSBkYXRhIHlvdSB3b3VsZCBoYXZlIGFsc28gcGFzc2VkIHRvIHRoZSBjbGllbnQgZGlyZWN0bHkpLlxuICAgICAgLy8gVGhlIG1ldGhvZCByZXR1cm5zIGEgcHJvbWlzZSwgd2hpY2ggd2lsbCBiZSByZXNvbHZlZCB3aXRoIHRoZSBkYXRhIHJldHVybmVkXG4gICAgICAvLyBmcm9tIEVsYXN0aWNzZWFyY2guXG4gICAgICBjYWxsKHJlcSwgJ2NsdXN0ZXIuc3RhdGUnKS50aGVuKGZ1bmN0aW9uIChyZXNwb25zZSkge1xuICAgICAgICAvLyBSZXR1cm4ganVzdCB0aGUgbmFtZXMgb2YgYWxsIGluZGljZXMgdG8gdGhlIGNsaWVudC5cbiAgICAgICAgcmVwbHkoXG4gICAgICAgICAgT2JqZWN0LmtleXMocmVzcG9uc2UubWV0YWRhdGEuaW5kaWNlcylcbiAgICAgICAgKTtcbiAgICAgIH0pO1xuICAgIH1cbiAgfSk7XG5cbiAgLy8gQWRkIGEgcm91dGUgdG8gcmV0cmlldmUgdGhlIHN0YXR1cyBvZiBhbiBpbmRleCBieSBpdHMgbmFtZVxuICBzZXJ2ZXIucm91dGUoe1xuICAgIC8vIFdlIGNhbiB1c2UgcGF0aCB2YXJpYWJsZXMgaW4gaGVyZSwgdGhhdCBjYW4gYmUgYWNjZXNzZWQgb24gdGhlIHJlcXVlc3RcbiAgICAvLyBvYmplY3QgaW4gdGhlIGhhbmRsZXIuXG4gICAgcGF0aDogJy9hcGkvZWxhc3RpY3NlYXJjaF9zdGF0dXMvaW5kZXgve25hbWV9JyxcbiAgICBtZXRob2Q6ICdHRVQnLFxuICAgIGhhbmRsZXIocmVxLCByZXBseSkge1xuICAgICAgY2FsbChyZXEsICdjbHVzdGVyLnN0YXRlJywge1xuICAgICAgICBtZXRyaWM6ICdtZXRhZGF0YScsXG4gICAgICAgIGluZGV4OiByZXEucGFyYW1zLm5hbWVcbiAgICAgIH0pLnRoZW4oZnVuY3Rpb24gKHJlc3BvbnNlKSB7XG4gICAgICAgIHJlcGx5KHJlc3BvbnNlLm1ldGFkYXRhLmluZGljZXNbcmVxLnBhcmFtcy5uYW1lXSk7XG4gICAgICB9KTtcbiAgICB9XG4gIH0pO1xuXG59O1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "/usr/share/kibana/plugins/elasticsearch_status/server/routes.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;qBAAe,UAAU,MAAM,EAAE;;;;AAI/B,MAAI,IAAI,GAAG,MAAM,CAAC,OAAO,CAAC,aAAa,CAAC,eAAe,CAAC;;;;;;AAMxD,QAAM,CAAC,KAAK,CAAC;AACX,QAAI,EAAE,mCAAmC;AACzC,UAAM,EAAE,KAAK;;;;AAIb,WAAO,EAAA,iBAAC,GAAG,EAAE,KAAK,EAAE;;;;;;;;;;;;;;AAclB,UAAI,CAAC,GAAG,EAAE,eAAe,CAAC,CAAC,IAAI,CAAC,UAAU,QAAQ,EAAE;;AAElD,aAAK,CACH,MAAM,CAAC,IAAI,CAAC,QAAQ,CAAC,QAAQ,CAAC,OAAO,CAAC,CACvC,CAAC;OACH,CAAC,CAAC;KACJ;GACF,CAAC,CAAC;;;AAGH,QAAM,CAAC,KAAK,CAAC;;;AAGX,QAAI,EAAE,wCAAwC;AAC9C,UAAM,EAAE,KAAK;AACb,WAAO,EAAA,iBAAC,GAAG,EAAE,KAAK,EAAE;AAClB,UAAI,CAAC,GAAG,EAAE,eAAe,EAAE;AACzB,cAAM,EAAE,UAAU;AAClB,aAAK,EAAE,GAAG,CAAC,MAAM,CAAC,IAAI;OACvB,CAAC,CAAC,IAAI,CAAC,UAAU,QAAQ,EAAE;AAC1B,aAAK,CAAC,QAAQ,CAAC,QAAQ,CAAC,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,IAAI,CAAC,CAAC,CAAC;OACnD,CAAC,CAAC;KACJ;GACF,CAAC,CAAC;CAEJ;;AAAA,CAAC",
+      "file": "/usr/share/kibana/plugins/elasticsearch_status/server/routes.js",
+      "sourcesContent": [
+        "export default function (server) {\n\n  // We can use this method, since we have set the require in the index.js to\n  // elasticsearch. So we can access the elasticsearch plugins safely here.\n  let call = server.plugins.elasticsearch.callWithRequest;\n\n  // Register a GET API at /api/elasticsearch_status/indices that returns\n  // an array of all indices in the elasticsearch. The server is actually an\n  // HAPI server and the complete documentation of the \"route\" method can be\n  // found in the official documentation: http://hapijs.com/api#serverrouteoptions\n  server.route({\n    path: '/api/elasticsearch_status/indices',\n    method: 'GET',\n    // The handler method will be called with the request that was made to this\n    // API and a reply method as 2nd parameter, that must be called with the\n    // content, that should be returned to the client.\n    handler(req, reply) {\n\n      // The call method that we just got from elasticsearch has the following\n      // syntax: the first parameter should be the request that actually came\n      // from the client. The callWithRequest method will take care about\n      // passing authentication data from kibana to elasticsearch or return\n      // authorization requests, etc.\n      // Second parameter to the function is the name of the javascript method\n      // you would like to call, as you can find it here in the documentation:\n      // https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/\n      // The third parameter will be passed as a parameter to the javascript method\n      // (it should contain the data you would have also passed to the client directly).\n      // The method returns a promise, which will be resolved with the data returned\n      // from Elasticsearch.\n      call(req, 'cluster.state').then(function (response) {\n        // Return just the names of all indices to the client.\n        reply(\n          Object.keys(response.metadata.indices)\n        );\n      });\n    }\n  });\n\n  // Add a route to retrieve the status of an index by its name\n  server.route({\n    // We can use path variables in here, that can be accessed on the request\n    // object in the handler.\n    path: '/api/elasticsearch_status/index/{name}',\n    method: 'GET',\n    handler(req, reply) {\n      call(req, 'cluster.state', {\n        metric: 'metadata',\n        index: req.params.name\n      }).then(function (response) {\n        reply(response.metadata.indices[req.params.name]);\n      });\n    }\n  });\n\n};\n"
+      ]
+    },
+    "mtime": 1486638711238
+  }
+}
